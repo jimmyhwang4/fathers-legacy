@@ -1,0 +1,146 @@
+<html>
+
+<title>Tours | Father's Legacy</title>
+<!-- TITLE OF PAGE -->
+
+<link href="https://fonts.googleapis.com/css?family=Great+Vibes|Lato&display=swap" rel="stylesheet">
+<!-- IMPORT TYPEFONT -->
+
+<style>
+
+  .bg {
+    filter: invert(10%);
+    background-image: url('background3.jpg');
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  /* BACKGROUND PICTURE */
+
+  .menuBar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    top: 12%;
+    left: 40%;
+    right: 40%;
+    position: absolute;
+  }
+
+  .homeLogo {
+    filter: invert(90%);
+    background-image: url('home.png');
+    background-size: cover;
+    background-position: center;
+    width: 32px;
+    height: 32px;
+  }
+
+  .musicLogo {
+    filter: invert(90%);
+    background-image: url('music.png');
+    background-size: cover;
+    background-position: center;
+    width: 32px;
+    height: 32px;
+  }
+
+  .globeLogo {
+    filter: invert(90%);
+    background-image: url('globe.png');
+    background-size: cover;
+    background-position: center;
+    width: 32px;
+    height: 32px;
+  }
+
+  .homeLogo:hover {
+    filter: invert(10%);
+  }
+
+  .musicLogo:hover {
+    filter: invert(10%);
+  }
+
+  .globeLogo:hover {
+    filter: invert(10%);
+  }
+
+  .toursMenu {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: space-between;
+    top: 25%;
+    left: 35%;
+    right: 35%;
+    bottom: 15%;
+    position: absolute;
+  }
+  /* TOURS MENU POSITIONING FOR LIST OF TOURS TO BE PUT IN */
+
+  .toursBox {
+    border: 2px solid white;
+    display: flex;
+    justify-content: center;
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+    color: white;
+    background-color: rgba(0,0,0,0.3);
+  }
+  /* TOURS BOX WITH BORDER, TEXT PROPERTIES, AND TEXT&BACKGROUND COLORS&OPACITY */
+
+  .toursBox:hover {
+    background-color: rgba(0,0,0,0.7);
+  }
+  /* MOUSE HOVERING EFFECT FOR TOURS BOXES */
+
+</style>
+
+<body>
+
+  <div class="bg"></div>
+
+  <div class="menuBar">
+    <a href='home.html'><div class="homeLogo"></div></a>
+    <a href='music.html'><div class="musicLogo"></div></a>
+    <div class="globeLogo"></div>
+  </div>
+
+  <div class="toursMenu">
+  <!-- TOURS MENU CLASS -->
+    <a href='https://www.ticketmaster.com/'><div class="toursBox">
+      <p>OCTOBER 26 | NEW YORK, NY</p>
+    </div><a>
+      <!-- TOURS BOX CLASS WITH TEXT INFORMATION AND BOX LINKED TO TICKETMASTER HOMEPAGE -->
+
+    <a href='https://www.ticketmaster.com/'><div class="toursBox">
+      <p>OCTOBER 27 | BROOKLYN, NY</p>
+    </div><a>
+
+    <a href='https://www.ticketmaster.com/'><div class="toursBox">
+      <p>NOVEMBER 8 | PHILADELPHIA, PA</p>
+    </div><a>
+
+    <a href='https://www.ticketmaster.com/'><div class="toursBox">
+      <p>NOVEMBER 16 | ORLANDO, FL</p>
+    </div><a>
+
+    <a href='https://www.ticketmaster.com/'><div class="toursBox">
+      <p>DECEMBER 10 | AUSTIN, TX</p>
+    </div><a>
+
+    <a href='https://www.ticketmaster.com/'><div class="toursBox">
+      <p>DECEMBER 22 | SAN FRANCISCO, CA</p>
+    </div><a>
+
+    <a href='https://www.ticketmaster.com/'><div class="toursBox">
+      <p>DECEMBER 24 | LOS ANGELES, CA</p>
+    </div><a>
+
+  </div>
+
+</body>
+
+</html>

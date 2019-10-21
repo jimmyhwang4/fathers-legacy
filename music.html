@@ -1,0 +1,136 @@
+<html>
+
+<title>Music | Father's Legacy</title>
+<!-- TITLE OF PAGE -->
+
+<link href="https://fonts.googleapis.com/css?family=Great+Vibes|Lato&display=swap" rel="stylesheet">
+<!-- IMPORT TYPEFONT -->
+
+<style>
+
+  .bg {
+    filter: invert(10%);
+    background-image: url('background2.jpg');
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  /* BACKGROUND PICTURE */
+
+  .menuBar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    top: 12%;
+    left: 40%;
+    right: 40%;
+    position: absolute;
+  }
+
+  .homeLogo {
+    filter: invert(90%);
+    background-image: url('home.png');
+    background-size: cover;
+    background-position: center;
+    width: 32px;
+    height: 32px;
+  }
+
+  .musicLogo {
+    filter: invert(90%);
+    background-image: url('music.png');
+    background-size: cover;
+    background-position: center;
+    width: 32px;
+    height: 32px;
+  }
+
+  .globeLogo {
+    filter: invert(90%);
+    background-image: url('globe.png');
+    background-size: cover;
+    background-position: center;
+    width: 32px;
+    height: 32px;
+  }
+
+  .homeLogo:hover {
+    filter: invert(10%);
+  }
+
+  .musicLogo:hover {
+    filter: invert(10%);
+  }
+
+  .globeLogo:hover {
+    filter: invert(10%);
+  }
+
+  .audioMenu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    top: 25%;
+    left: 30%;
+    right: 30%;
+    bottom: 20%;
+    position: absolute;
+  }
+  /* AUDIO MENU POSITIONING FOR AUDIO PLAYERS TO BE ORGANIZED INTO */
+
+  .audioPlayer {
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+    color: white;
+  }
+  /* AUDIO PLAYER CLASS TO INPUT INDIVIDUAL AUDIO PLAYERS/FILES AND TEXT PROPERTIES FOR TITLE OF SONG */
+
+</style>
+
+<body>
+
+  <div class="bg"></div>
+
+  <div class="menuBar">
+    <a href='home.html'><div class="homeLogo"></div></a>
+    <div class="musicLogo"></div>
+    <a href='tours.html'><div class="globeLogo"></div></a>
+  </div>
+
+  <div class="audioMenu">
+  <!-- AUDIO MENU CLASS -->
+    <div class="audioPlayer">
+      <p><center>Father's Legacy - Miracle<center></p>
+      <audio controls preload="metadata" style=" width:600px;">
+        <source src="miracle.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+      </audio><br />
+      <!-- AUDIO PLAYER CODE IMPORTED FROM http://scriptgenerator.net/really-simple-embed-audio-player-script/ -->
+      <!-- AUDIO PLAYER CLASS WITH TITLE AND SONG "MIRACLE" -->
+    </div>
+
+    <div class="audioPlayer">
+      <p><center>Father's Legacy - After Rain<center></p>
+      <audio controls preload="metadata" style=" width:600px;">
+        <source src="after-rain.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+      </audio><br />
+      <!-- AUDIO PLAYER CLASS WITH TITLE AND SONG "AFTER RAIN" -->
+    </div>
+
+    <div class="audioPlayer">
+      <p><center>Father's Legacy - Connection<center></p>
+      <audio controls preload="metadata" style=" width:600px;">
+        <source src="connection.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+      </audio><br />
+      <!-- AUDIO PLAYER CLASS WITH TITLE AND SONG "CONNECTION" -->
+    </div>
+
+  </div>
+
+</body>
+
+</html>
